@@ -11,9 +11,10 @@
         android:id="@+id/id_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
         android:background="@color/black_shade_1"
         app:titleTextColor="@color/yellow"
-        app:title="News App"/>
+        app:title="My News App"/>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -29,20 +30,27 @@
             android:id="@+id/id_news"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:scaleType="center"
-            android:layout_margin="3dp"
-            android:padding="3dp"/>
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:padding="3dp"
+            android:scaleType="center" />
+
         <TextView
             android:id="@+id/id_Tv_Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Title"
-            android:textColor="@color/yellow"
-            android:textStyle="bold"
             android:layout_below="@+id/id_news"
-            android:textSize="20sp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
             android:padding="4dp"
-            android:layout_margin="4dp"/>
+            android:text="Title"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            android:textStyle="bold" />
         <TextView
             android:id="@+id/id_Tv_SubDesc"
             android:layout_width="match_parent"
@@ -72,13 +80,13 @@
         android:id="@+id/id_Tv_read_news"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Read Full News"
-        android:background="@color/yellow"
-        app:backgroundTint="@color/yellow"
-        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:background="@color/yellow"
+        android:text="Read Full News"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/blue" />
 
 </RelativeLayout>

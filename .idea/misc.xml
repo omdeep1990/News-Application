@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Education/Android Studio Chetu/My Perfect Projects/NewsApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Education/Android Studio Chetu/My Perfect Projects/NewsApplication/app/src/main/res/layout/activity_news_detail.xml" value="0.22" />
+        <entry key="..\:/Education/Android Studio Chetu/My Perfect Projects/NewsApplication/app/src/main/res/layout/categories_rv_item.xml" value="0.1" />
+        <entry key="..\:/Education/Android Studio Chetu/My Perfect Projects/NewsApplication/app/src/main/res/layout/news_rv_item.xml" value="0.1" />
         <entry key="..\:/Education/Android Studio Chetu/NewsApplication/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Education/Android Studio Chetu/NewsApplication/app/src/main/res/layout/categories_rv_item.xml" value="0.2" />
         <entry key="..\:/Education/Android Studio Chetu/NewsApplication/app/src/main/res/layout/news_rv_item.xml" value="0.25" />
